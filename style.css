@@ -1,0 +1,50 @@
+
+#app .bgg{
+	background: url(./assets/checklist1.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+
+#app .todo{
+	padding: 3%;
+}
+
+.tdf{
+	border: solid black 2px;
+}
+
+.todoform{
+	width: 100%;
+	height: 100%;
+}
+
+.todoform input{
+	border: none;
+	outline: none;
+	border-bottom:solid black 2px;
+}
+
+.todo .bggg{
+	color: gold;
+	background:rgba(0,0,0,0.6);
+	padding: 0.6em;
+}
+
+.todo .title{
+	font-weight: bold;
+}
+
+.todo .content{
+	font-weight: bold;
+	font-size: 1.4;
+}
+
+.todo ul{
+	list-style-type: none;
+	cursor: pointer;
+}
+.todo .done-task li{
+	text-decoration: line-through;
+}
